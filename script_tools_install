@@ -1,0 +1,50 @@
+#!/bin/bash
+
+# Script de réinstallation ElementaryOS (perso)
+
+
+# Installation de logiciels de base
+cd ~
+
+# Install
+sudo pacman -Syu
+sudo pacman -S -y anki atom bleachbit cowsay firefox flameshot gimp git gnome-disk-utility gparted imagemagick keepassxc ksysguard libreoffice librewolf ncdu neofetch obs-studio openvpn planner qbittorrent software-properties-common tree tmux virtualbox vlc xdotool xsane
+
+
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+
+# PPA
+#sudo add-apt-repository -y ppa:malteworld/ppa
+#sudo add-apt-repository -y ppa:philip.scott/elementary-tweaks
+
+# Install des PPA
+#sudo apt install -y elementary-tweaks
+#sudo apt install -y pdftk
+
+# Installation de logiciels demandant un .deb
+#sudo wget https://atom.io/download/deb
+#sudo dpkg -i deb && sudo mv ./deb ./atom.deb
+
+
+# Installation de logiciels demandant un .tar
+#sudo wget https://cdn.waterfox.net/releases/linux64/installer/waterfox-classic-2021.04.2.en-US.linux-x86_64.tar.bz2
+#sudo tar -xf waterfox-classic-2021.04.2.en-US.linux-x86_64.tar.bz2 waterfox-classic/
+#sudo rm waterfox-classic-2021.04.2.en-US.linux-x86_64.tar.bz2 -y
+
+
+# Etape finale
+sudo apt udpate
+sudo apt upgrade -y
+
+
+# Cowsay & Notes
+echo "Pour set grub : sudo nano /etc/default/grub
+Mettre GRUB_TIMEOUT à 10 pour que le GRUB apparaisse. 
+Pour set un background, ajoute la ligne GRUB_BACKGROUND=Chemin_de_l_image.
+Quand tu auras fini -> sudo update-grub" | cowsay -n
+
+echo "Note :
+Screenrec (voir Shop)
+Ou simplescreenrecorder (ppa:maarten-baert/simplescreenrecorder)
+Sont peut etre plus interessant qu'OBS !" | cowsay -n
