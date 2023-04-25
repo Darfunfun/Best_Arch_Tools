@@ -17,9 +17,11 @@
 * Drivers NVIDIA : 
 
 ## Useful Tools
-* Screenshot : Flameshot
+* Screenshot : sudo pacman -S flameshot
 * Clipboard : Parcellite, Klipper, CopyQ, Clipit, Gpaste
-* Password Manager : KeepassXC
+* Password Manager : keepassxc
+* Scanner : sudo pacman -S simple-scan
+
 
 ## Misc
 * Virtualization : VirtualBox ? KVM ?
