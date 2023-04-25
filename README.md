@@ -21,6 +21,7 @@
 * Clipboard : Parcellite, Klipper, CopyQ, Clipit, Gpaste
 * Password Manager : keepassxc
 * Scanner : sudo pacman -S simple-scan
+* Text Editor : Kate
 
 
 ## Misc
