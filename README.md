@@ -22,6 +22,7 @@
 * Password Manager : keepassxc
 * Scanner : sudo pacman -S simple-scan
 * Text Editor : Kate
+* Disks manager : partitionmanager
 
 
 ## Misc
