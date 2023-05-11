@@ -24,6 +24,9 @@
 * Text Editor : Kate
 * **Disks manager : partitionmanager**
 
+Organisation :
+sudo snap install superproductivity
+Joplin
 
 ## Misc
 * Virtualization : VirtualBox ? KVM ?
