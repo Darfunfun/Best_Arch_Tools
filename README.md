@@ -24,9 +24,9 @@
 * Text Editor : Kate
 * **Disks manager : partitionmanager**
 
-Organisation :
+## Organisation :
 sudo snap install superproductivity
-Joplin
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 
 ## Misc
 * Virtualization : VirtualBox ? KVM ?
