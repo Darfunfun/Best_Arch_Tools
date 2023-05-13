@@ -52,20 +52,20 @@ Langages de programmation favoris : POSIX Shell / Bash / Emacs Lisp / Haskell
 
 
 ## Docks 
-### Latte
+- Latte
 Pour personaliser Latte -> `Click droit` ->  `Modifier un tableau de bord` (**et non** "Configurer Latte")
 Plugin indicator : 
 -> https://store.kde.org/p/1994299
 
-- Exporter la conf
+  - Exporter la conf
 	- /home/zizou/.config/latte/templates/
 	- /home/zizou/Ma disposition.layout.latte
 
 
-### Docky
-### Plank
-### XFCE Panel
-### AWN
+- Docky
+- Plank
+- XFCE Panel
+- AWN
 
 
 ## Supervision
