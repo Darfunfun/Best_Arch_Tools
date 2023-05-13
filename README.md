@@ -70,7 +70,7 @@ Plugin indicator :
 
 ## Supervision
 ### Conky
-- Minimalis 10/10 : https://www.pling.com/p/1112273
+- Minimalis 10/10 : https://www.pling.com/p/1112273 -> Install .ttf en double cliquant, placer .conf dans `.config/conky`, lancer la commande `conky -c ~/.config/conky/conky.conf`
 - Mirach with custom color : https://store.kde.org/p/1851356/
 - A tester ? -> https://www.ubuntupit.com/best-conky-themes-for-linux/
 
