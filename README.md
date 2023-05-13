@@ -88,13 +88,13 @@ Plugin indicator :
   - A tester
 
 ## Shell
-### Fish
+- Fish
 Ergonomie +++
 
 
 ## Barre
-Layan (interessante)
-Extensions pour bar : Blur My Shell, Just Perfection, Freon, Clipboard indicator, User Theme, Aylur's Widgets -> https://i.redd.it/gnome-do-i-wanna-know-v0-ifwllc8x9nba1.png?s=cefa93a25753f7ead04d097d03715b34167955e8
+- Layan (interessante)
+- Extensions pour bar : Blur My Shell, Just Perfection, Freon, Clipboard indicator, User Theme, Aylur's Widgets -> https://i.redd.it/gnome-do-i-wanna-know-v0-ifwllc8x9nba1.png?s=cefa93a25753f7ead04d097d03715b34167955e8
 
 
 ## Spicetify (?) (Pour spotify)
