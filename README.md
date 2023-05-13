@@ -70,19 +70,22 @@ Plugin indicator :
 
 ## Supervision
 ### Conky
-Conky: Mirach with custom color 
+- Minimalis 10/10 : https://www.pling.com/p/1112273
+- Mirach with custom color : https://store.kde.org/p/1851356/
+- A tester ? -> https://www.ubuntupit.com/best-conky-themes-for-linux/
 
 
 ## Terminal
-### Alacritty 
-Bof, pas de click droit possible
-### XFCE
-Moche
-### Konsole
-Moche
-### Gnome
-De mémoire, le meilleur
-
+- Gnome
+  - De mémoire, le meilleur
+- Alacritty 
+  -Bof, pas de click droit possible
+- XFCE
+  - Moche
+- Konsole
+  - Moche
+- Kitty
+  - A tester
 
 ## Shell
 ### Fish
