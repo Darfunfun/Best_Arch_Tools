@@ -14,7 +14,8 @@
   * **Lutris**
   * **FSR**
   * **Proton GE** -> 
-`# make temp working directory
+```sh
+# make temp working directory
 mkdir /tmp/proton-ge-custom
 cd /tmp/proton-ge-custom
 
@@ -33,7 +34,8 @@ mkdir -p ~/.steam/root/compatibilitytools.d
 
 # extract proton tarball to steam directory
 tar -xf GE-Proton*.tar.gz -C ~/.steam/root/compatibilitytools.d/
-echo "All done :)"`
+echo "All done :)"
+```
 * Drivers NVIDIA : 
 
 ## Useful Tools
