@@ -8,8 +8,7 @@ cd ~
 
 # Install
 sudo pacman -Syu
-sudo pacman -S -y anki atom bleachbit cowsay firefox flameshot gimp git gnome-disk-utility gparted imagemagick keepassxc ksysguard libreoffice librewolf ncdu neofetch obs-studio openvpn planner qbittorrent software-properties-common tree tmux virtualbox vlc xdotool xsane
-
+sudo pacman -S -y anki atom bleachbit cowsay firefox flameshot gimp git gnome-disk-utility gparted imagemagick keepassxc ksysguard libreoffice librewolf ncdu neofetch obs-studio openvpn planner qbittorrent software-properties-common tree tmux virtualbox vlc xdotool xsane noto-fonts-emoji
 
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
