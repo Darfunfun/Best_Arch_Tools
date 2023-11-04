@@ -147,8 +147,9 @@ Plugin indicator :
   - A tester
 
 ## Shell
-- Fish
-Ergonomie +++
+- Fish (Ergonomie +++)
+	Astuce : Alt + fleche gauche = Dossier precedent
+		 Alt + fleche droite = Dossier suivant
 
 
 ## Barre
