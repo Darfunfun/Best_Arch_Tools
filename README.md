@@ -153,7 +153,8 @@ Plugin indicator :
   		  Alt + W = Description de la commande écrite sur la ligne et décrit les alias si la commande est un alias
   
 - Zsh, the lazy way : `sh -c "$(curl -fsSL https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"` (https://github.com/romkatv/zsh4humans#installation)
-  	Executer la commande `p10k configure` et suivre le wizard
+- Executer la commande `p10k configure` et suivre le wizard
+- SSH Teleportation : Acceder à ~/.zshrc et rechercher "SSH". Activer la fonction SSH Teleportation sur les hosts voulues (uniquement entrer l'adresse des hosts sans le username) et restart une session zsh !
 
 - Highlighting syntax for Nano : `sudo pacman -S nano-syntax-highlighting` ou `curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh` (https://github.com/scopatz/nanorc/)
 - 	Pour l'appliquer à tout le systeme : `sudo visudo` (ou `nano /etc/sudoers`), trouver la rubrique "Defaults" et ajouter la ligne `Defaults env_keep += "NANO"`. Enregistrer
