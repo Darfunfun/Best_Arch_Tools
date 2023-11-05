@@ -155,7 +155,9 @@ Plugin indicator :
 - Zsh, the lazy way : `sh -c "$(curl -fsSL https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"` (https://github.com/romkatv/zsh4humans#installation)
   	Executer la commande `p10k configure` et suivre le wizard
 
-- Highlighting syntax for Nano : `curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh` (https://github.com/scopatz/nanorc/)
+- Highlighting syntax for Nano : `sudo pacman -S nano-syntax-highlighting` ou `curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh` (https://github.com/scopatz/nanorc/)
+- 	Pour l'appliquer à tout le systeme : `sudo visudo` (ou `nano /etc/sudoers`), trouver la rubrique "Defaults" et ajouter la ligne `Defaults env_keep += "NANO"`. Enregistrer
+- 	Executer la commande `sudo nano /root/.nanorc` et entrer l'instruction `include "/usr/share/nano/*.nanorc"` (ou `include /usr/share/nano-syntax-highlighting/nanorc/*.nanorc` ou tout autre chemin ou se trouve les .nanorc installés par curl `https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh`
 
 
 ## Barre
