@@ -148,8 +148,14 @@ Plugin indicator :
 
 ## Shell
 - Fish (Ergonomie +++)
-	Astuce : Alt + fleche gauche = Dossier precedent
-		 Alt + fleche droite = Dossier suivant
+	Astuces : Alt + fleche gauche = Dossier precedent
+		  Alt + fleche droite = Dossier suivant
+  		  Alt + W = Description de la commande écrite sur la ligne et décrit les alias si la commande est un alias
+  
+- Zsh, the lazy way : `sh -c "$(curl -fsSL https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"` (https://github.com/romkatv/zsh4humans#installation)
+  	Executer la commande `p10k configure` et suivre le wizard
+
+- Highlighting syntax for Nano : `curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh` (https://github.com/scopatz/nanorc/)
 
 
 ## Barre
